@@ -1,0 +1,14 @@
+<h1>筆劃查詢結果</h1>
+
+
+<% @characters.each do |character| %>
+	<%= character['chinese'] %>：<%= character['strokes'] %>劃
+	<br/>
+	<br/>
+<% end %>
+
+總筆劃：<%= @sum %>劃
+<br/>
+<br/>
+<br/>	
+<%= link_to '返回', root_path %>

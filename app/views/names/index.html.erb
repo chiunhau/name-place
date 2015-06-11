@@ -1,0 +1,7 @@
+
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:name, "查詢名字的筆劃數:") %>
+  <%= text_field_tag(:name) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
