@@ -1,6 +1,6 @@
 class NamesController < ApplicationController
   require 'iconv'
-	require 'CSV'
+	require 'csv'
 	require 'json'
 
 	def index
